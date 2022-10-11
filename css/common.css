@@ -22,6 +22,18 @@ body {
     letter-spacing: 0.03em;
 }
 
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+   
+}
+
 .logo {
     color: #2196F3;
     font-family: "Raleway", cursive;
@@ -40,7 +52,19 @@ body {
     text-decoration: none;    
 }
 
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -58,6 +82,15 @@ body {
     color: var(--accnent-color);
 }
     
+.mail-tel {
+    display: flex;
+    margin-left: auto;
+}
+
+.mail-tel .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .mail-tel .mail {
     color: var(--accnent-color);
     font-weight: 500;
