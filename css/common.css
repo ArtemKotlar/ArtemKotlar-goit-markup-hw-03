@@ -31,10 +31,10 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-   
 }
 
 .logo {
+    margin-right: 93px;
     color: #2196F3;
     font-family: "Raleway", cursive;
     font-weight: 700;
@@ -59,6 +59,11 @@ body {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .site-nav {
@@ -120,6 +125,13 @@ body {
     
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.address-team {
+    display: flex;
+    flex-direction: column;
 }
 
 .address {
@@ -131,11 +143,18 @@ body {
 }
 
 .address-text {
+    margin-top: 20px;
+    margin-bottom: 9px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-white-color);
     text-decoration: none;
+}
+
+.address.info {
+    margin-top: 0;
+    margin-bottom: 9px;
 }
 
 .address:hover,
