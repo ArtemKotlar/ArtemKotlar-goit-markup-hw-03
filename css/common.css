@@ -144,6 +144,7 @@ body {
 }
 
 .address-text {
+    font-style: normal;
     margin-top: 20px;
     margin-bottom: 9px;
     font-weight: 400;
@@ -159,6 +160,5 @@ body {
 }
 
 .address:hover,
-.address:focus {
-    color: var(--accnent-color);
-}
+.address:focus 
+    
